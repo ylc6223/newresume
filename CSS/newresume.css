@@ -1,0 +1,202 @@
+body {
+    height: 1500px;
+    background: gray;
+}
+
+.page {
+    width: 822px;
+    /* width: 820px; */
+    /* height: 1156px; */
+    height: 1158;
+    /* background-color: #008c8c; */
+    margin: 100px auto;
+    /* border: 1px solid #212226; */
+    border: 2px solid #212226;
+    box-sizing: border-box;
+}
+
+.page h1 {
+    display: none;
+}
+
+.header {
+    height: 168px;
+    /* background: #000; */
+    background: #008c8c1a;
+}
+
+.header .icon {
+    width: 191px;
+    height: 168px;
+    /* background: #ff6700; */
+    /* display: inline; */
+    float: left;
+}
+.icon .circle{
+    border-radius: 50%;
+    /* background-color: pink; */
+    background-color: #fff;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header .des {
+    width: 627px;
+    height: 168px;
+    /* display: inline; */
+    float: left;
+    color: #212226;
+}
+.header .des .pinfo{
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.des .name{
+    /* font-weight: bold; */
+    font-size: 26px;
+}
+.des .readme{
+    margin-top: 15px;
+}
+.des .info{
+    margin-top: 10px;
+}
+.header .des li {
+    float: left;
+}
+.header .des li span{
+    display: block;
+    border-right: 1px solid #212226;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header .des .mail{
+    border-right: none;
+}
+
+.container {
+    height: 986px;
+    background: #ECECEA;
+}
+
+.side {
+    width: 191px;
+    height: 986px;
+    /* display: inline; */
+    float: left;
+    color: #84cfff;
+    background-color: #d0d0ce1a
+}
+
+.side .objective {
+    height: 146px;
+}
+
+.side .edu-bg {
+    height: 135px;
+}
+
+.side .work-exp {
+    height: 185px;
+}
+
+.side .expinpj {
+    height: 333px;
+}
+
+.sid .aboutme {
+    height: 187px;
+}
+.side h2{
+    margin-top: -10px;
+}
+.side h2:first-child{
+    padding-top:46px;
+}
+
+.side h2{
+    margin-left: 31px;
+}
+
+.mid {
+    /* display: inline; */
+    width: 627px;
+    height: 986px;
+    /* background: #000; */
+    float: left;
+}
+.mid .whitespace-top{
+    width: 627px;
+    height: 54px;
+    /* background: #000; */
+    /* float: left; */
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    /* border-top: none; */
+}
+.mid .content{
+    width: 595px;
+    height: 932px;
+    /* background: #ff6700; */
+    float: left;
+    border: 1px solid #212226;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+/* .obj-des span,.edu-bg-des span,.work-exp-des span,.content h3{
+    display: block;
+    float: left;
+    margin-top: 45px;
+    margin-left: 29px;
+} */
+.content .obj-des{
+    width: 595px;
+    height: 113px;
+    border-bottom: 1px dashed #212226;
+}
+.content .edu-bg-des{
+    width: 595px;
+    height: 124px;
+    border-bottom: 1px dashed #212226;
+}
+.obj-des span, .edu-bg-des span,.work-exp-des h3,.work-exp-des span,.work-exp-des p,.expinpj-des h3,.expinpj-des p{
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 29px;
+}
+.content .work-exp-des{
+    width: 595px;
+    height: 184px;
+    border-bottom: 1px dashed #212226;
+}
+.content .expinpj-des{
+    width: 595px;
+    height: 330px;
+    border-bottom: 1px dashed #212226;
+}
+.content .aboutme-des{
+    width: 595px;
+    height: 177px;
+    /* border-bottom: 1px dashed #000; */
+}
+.content .aboutme-des ul{
+    margin-left: 29px;
+    margin-top: 10px;
+}
+.content .aboutme-des li{
+    list-style: initial;
+}
+.mid .whitespace-right{
+    width: 32px;
+    height: 932px;
+    /* background: #008c8c; */
+    float: left;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+}
